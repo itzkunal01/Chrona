@@ -106,12 +106,12 @@ const Header = () => {
                 <ul className="p-0">
                   <li className=" transition-0_3sEase overflow-hidden">
                     <span
-                      className="py-2 py-sm-4 d-inline-block cursor-pointer"
+                      className="py-sm-4 d-inline-block cursor-pointer"
                       onClick={() => setShowOverlay(false)}
                     >
                       <a
                         href="#home"
-                        className="nav-link fs-2 text-black text-decoration-none"
+                        className="nav-link fs-2 text-white text-decoration-none"
                       >
                         Home
                       </a>
@@ -119,82 +119,86 @@ const Header = () => {
                   </li>
                   <li className=" transition-0_3sEase overflow-hidden">
                     <span
-                      className="py-2 py-sm-4 d-inline-block cursor-pointer"
+                      className="py-sm-4 d-inline-block cursor-pointer"
                       onClick={() => setShowOverlay(false)}
                     >
                       <a
                         href="#about"
-                        className="nav-link fs-2 text-black text-decoration-none"
+                        className="nav-link fs-2 text-white text-decoration-none"
                       >
                         About us
                       </a>
                     </span>
                   </li>
-                  <li className="nav-item btn-img mt-3 mt-lg-1  transition-0_3sEase overflow-hidden">
+                  <li className="nav-item btn-img mt-1 mt-sm-3 mt-lg-1  transition-0_3sEase overflow-hidden">
                     <span
-                      className="py-2 py-sm-4 d-inline-block cursor-pointer"
+                      className="py-sm-4 d-inline-block cursor-pointer"
                       onClick={() => setShowOverlay(false)}
                     >
                       <a
                         href="#how-to"
-                        className="nav-link fs-2 text-black text-decoration-none"
+                        className="nav-link fs-2 text-white text-decoration-none"
                       >
                         How to works
                       </a>
                     </span>
                   </li>
-                  <li className="nav-item btn-img mt-3 mt-lg-1  transition-0_3sEase overflow-hidden">
+                  <li className="nav-item btn-img mt-1 mt-sm-3 mt-lg-1  transition-0_3sEase overflow-hidden">
                     <span
-                      className="py-2 py-sm-4 d-inline-block cursor-pointer"
+                      className="py-sm-4 d-inline-block cursor-pointer"
                       onClick={() => setShowOverlay(false)}
                     >
                       <a
                         href="#enter"
-                        className="nav-link fs-2 text-black text-decoration-none"
+                        className="nav-link fs-2 text-white text-decoration-none"
                       >
                         Enter raffle
                       </a>
                     </span>
                   </li>
-                  <li className="nav-item btn-img mt-3 mt-lg-1  transition-0_3sEase overflow-hidden">
+                  <li className="nav-item btn-img mt-1 mt-sm-3 mt-lg-1  transition-0_3sEase overflow-hidden">
                     <span
-                      className="py-2 py-sm-4 d-inline-block cursor-pointer"
+                      className="py-sm-4 d-inline-block cursor-pointer"
                       onClick={() => setShowOverlay(false)}
                     >
                       <a
                         href="#watch-list"
-                        className="nav-link fs-2 text-black text-decoration-none"
+                        className="nav-link fs-2 text-white text-decoration-none"
                       >
                         Watch list
                       </a>
                     </span>
                   </li>
-                  <li className="nav-item btn-img mt-3 mt-lg-1  transition-0_3sEase overflow-hidden">
+                  <li className="nav-item btn-img mt-1 mt-sm-3 mt-lg-1  transition-0_3sEase overflow-hidden">
                     <span
-                      className="py-2 py-sm-4 d-inline-block cursor-pointer"
+                      className="py-sm-4 d-inline-block cursor-pointer"
                       onClick={() => setShowOverlay(false)}
                     >
                       <a
                         href="#team"
-                        className="nav-link fs-2 text-black text-decoration-none"
+                        className="nav-link fs-2 text-white text-decoration-none"
                       >
                         Team
                       </a>
                     </span>
                   </li>
-                  <li className="nav-item btn-img mt-3 mt-lg-1  transition-0_3sEase overflow-hidden">
+                  <li className="nav-item btn-img mt-1 mt-sm-3 mt-lg-1  transition-0_3sEase overflow-hidden">
                     <span
-                      className="py-2 py-sm-4 d-inline-block cursor-pointer"
+                      className="py-sm-4 d-inline-block cursor-pointer"
                       onClick={() => setShowOverlay(false)}
                     >
                       <a
                         href="#faq"
-                        className="nav-link fs-2 text-black text-decoration-none"
+                        className="nav-link fs-2 text-white text-decoration-none"
                       >
                         FAQs
                       </a>
                     </span>
                   </li>
+
+                  <button class="common-btn border-0 py-3 px-32 text-white d-flex align-items-center w-100">
+                    Connect Wallet
+                  </button>
                 </ul>
               </div>
             </div>
@@ -204,6 +208,7 @@ const Header = () => {
             <nav className="navbar h-86 navbar-expand-lg navbar-light p-3 w-100">
               <div className="d-flex justify-content-between w-100 align-items-center">
                 <img className="nav-logo" src={ChronoLogo} alt="logo" />
+
                 <div
                   className={`${
                     showOverlay ? "animate" : ""
