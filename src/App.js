@@ -1,13 +1,18 @@
 import "./App.css";
+import { useEffect } from "react";
 import Home from "./component/Home";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { useScreenFixedProvider } from "../src/component/context/ScreenFixedProvider";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function App() {
-  const { showOverlay, setShowOverlay } = useScreenFixedProvider();
-
+  useEffect(() => {
+    AOS.init({
+      duration: 2000,
+    });
+  }, []);
   return (
     <div>
       <Home />
