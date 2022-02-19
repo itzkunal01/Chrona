@@ -5,13 +5,10 @@ import CarouselTwo from ".././assets/images/png/carousel-two.png";
 import CarouselOne from ".././assets/images/png/carousel.png";
 import TeamImg from ".././assets/images/svg/Team.svg";
 import Slider from "react-slick";
-// import previousIcon from "../assets/images/svg/prev.svg";
-// import nextIcon from "../assets/images/svg/next.svg";
+
 export const TeamCarousel = () => {
   const slider = useRef();
   const settings = {
-    // nextArrow: '<button id="next-icon"> </button> ',
-    // prevArrow: '<button id="previous-icon"> </button> ',
     infinite: true,
     dots: false,
     slidesToShow: 4,
@@ -59,49 +56,49 @@ export const TeamCarousel = () => {
             className="cursor-pointer"
             id="previous-icon"
             onClick={() => slider?.current?.slickNext()}
-          >
-            {/* <img src={previousIcon} alt="" /> */}
-          </div>
+          ></div>
           <div
             className="cursor-pointer"
             id="next-icon"
             onClick={() => slider?.current?.slickPrev()}
-          >
-            {/* <img src={nextIcon} alt="" /> */}
-          </div>
+          ></div>
         </div>
         <div className="row pb-sm-5 mb-3">
           <div className="col-12" data-aos="fade-up" data-aos-duration="2000">
             <h1 className="text-center heading my-linear-gradient">Team</h1>
           </div>
         </div>
-        <Slider className="py-4 py-sm-0" ref={slider} {...settings}>
-          <div>
-            <img className="w-100" src={CarouselFour} alt="image" />
-            <h1 className="small-heading text-center mt-3 pt-1">Mesh</h1>
-            <h6 className="font-sm text-center">The Watch Guru</h6>
+        <div className="row">
+          <div className="col-10 col-lg-12 mx-auto">
+            <Slider className="py-4 py-sm-0" ref={slider} {...settings}>
+              <div>
+                <img className="w-100" src={CarouselFour} alt="image" />
+                <h1 className="small-heading text-center mt-3 pt-1">Mesh</h1>
+                <h6 className="font-sm text-center">The Watch Guru</h6>
+              </div>
+              <div>
+                <img className="w-100" src={CarouselThree} alt="image" />
+                <h1 className="small-heading text-center mt-3 pt-1">Mesh</h1>
+                <h6 className="font-sm text-center">The Watch Guru</h6>
+              </div>
+              <div>
+                <img className="w-100" src={CarouselTwo} alt="image" />
+                <h1 className="small-heading text-center mt-3 pt-1">Mesh</h1>
+                <h6 className="font-sm text-center">The Watch Guru</h6>
+              </div>
+              <div>
+                <img className="w-100" src={CarouselOne} alt="image" />
+                <h1 className="small-heading text-center mt-3 pt-1">Mesh</h1>
+                <h6 className="font-sm text-center">The Watch Guru</h6>
+              </div>
+              <div>
+                <img className="w-100" src={CarouselThree} alt="image" />
+                <h1 className="small-heading text-center mt-3 pt-1">Mesh</h1>
+                <h6 className="font-sm text-center">The Watch Guru</h6>
+              </div>
+            </Slider>
           </div>
-          <div>
-            <img className="w-100" src={CarouselThree} alt="image" />
-            <h1 className="small-heading text-center mt-3 pt-1">Mesh</h1>
-            <h6 className="font-sm text-center">The Watch Guru</h6>
-          </div>
-          <div>
-            <img className="w-100" src={CarouselTwo} alt="image" />
-            <h1 className="small-heading text-center mt-3 pt-1">Mesh</h1>
-            <h6 className="font-sm text-center">The Watch Guru</h6>
-          </div>
-          <div>
-            <img className="w-100" src={CarouselOne} alt="image" />
-            <h1 className="small-heading text-center mt-3 pt-1">Mesh</h1>
-            <h6 className="font-sm text-center">The Watch Guru</h6>
-          </div>
-          <div>
-            <img className="w-100" src={CarouselThree} alt="image" />
-            <h1 className="small-heading text-center mt-3 pt-1">Mesh</h1>
-            <h6 className="font-sm text-center">The Watch Guru</h6>
-          </div>
-        </Slider>
+        </div>
       </div>
     </div>
   );

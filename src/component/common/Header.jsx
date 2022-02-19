@@ -2,6 +2,7 @@ import React from "react";
 import { useScreenFixedProvider } from "../context/ScreenFixedProvider";
 import { useMediaQuery } from "react-responsive";
 import ChronoLogo from "../../assets/images/svg/chrono-logo.svg";
+import MyChronoLogo from "../../assets/images/png/my-chrono-logo.png";
 
 const Header = () => {
   const { showOverlay, setShowOverlay } = useScreenFixedProvider();
@@ -91,7 +92,7 @@ const Header = () => {
                 </li>
               </ul>
 
-              <button class="common-btn border-0 py-3 px-32 text-white d-flex align-items-center d-none d-md-block">
+              <button class="common-btn border-0 py-3 wallet-btn text-white d-flex align-items-center d-none d-md-block">
                 Connect Wallet
               </button>
             </div>
@@ -195,19 +196,23 @@ const Header = () => {
                       </a>
                     </span>
                   </li>
-
-                  <button class="common-btn border-0 py-3 px-32 text-white d-flex align-items-center w-100">
-                    Connect Wallet
-                  </button>
                 </ul>
               </div>
             </div>
           </div>
 
           <div className="container">
-            <nav className="navbar h-86 navbar-expand-lg navbar-light p-3 w-100">
+            <nav className="navbar h-86 navbar-expand-lg navbar-light px-3 p-sm-3 w-100">
               <div className="d-flex justify-content-between w-100 align-items-center">
-                <img className="nav-logo" src={ChronoLogo} alt="logo" />
+                <img
+                  className="my-logo d-none d-sm-block"
+                  src={MyChronoLogo}
+                  alt="logo"
+                />
+
+                <button class="common-btn border-0 py-2 py-sm-3 wallet-btn text-white d-flex align-items-center d-xl-none">
+                  Connect Wallet
+                </button>
 
                 <div
                   className={`${
@@ -227,7 +232,4 @@ const Header = () => {
     </>
   );
 };
-
 export default Header;
-
-// export default Header;

@@ -699,11 +699,13 @@ section {
   transform: scaleX(1);
 }
 
-.px-32 {
+.wallet-btn {
   padding-left: 32px;
   padding-right: 32px;
 }
-
+.my-logo {
+  width: 16%;
+}
 /* ===================================== MY-CSS-ENDS ===================================================== */
 /*====================================== Media-queries-start ======================================== */
 
@@ -742,7 +744,7 @@ section {
     --font-xxxl: 110px;
   }
 
-  .px-32 {
+  .wallet-btn {
     padding-left: 19px;
     padding-right: 19px;
   }
@@ -796,7 +798,7 @@ section {
 @media (max-width: 575.98px) {
   :root {
     --font-sm: 14px;
-    --font-md: 20px;
+    --font-md: 14px;
     --font-lg: 14px;
     --font-xl: 20px;
     --font-xxl: 40px;
@@ -817,6 +819,10 @@ section {
 
   .slick-dots {
     bottom: -34px;
+  }
+  .wallet-btn {
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 /*====================================== Media-queries-end =========================================== */

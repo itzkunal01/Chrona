@@ -17,7 +17,7 @@ const FaqFooter = () => {
           />
         </div>
 
-        <div className="container pb-4 py-sm-5 mt-lg-5">
+        <div className="container pb-4 pb-sm-auto py-sm-5 mt-lg-5">
           {/* <!-- row-1 --> */}
           <div className="row faq-border mt-4 mt-sm-5">
             <div
@@ -290,7 +290,7 @@ const FaqFooter = () => {
             </div>
           </div>
         </div>
-        <div className="row justify-content-center">
+        <div className="row justify-content-center mt-4 mt-sm-5">
           <div className="col-6 col-sm-4 col-xl-2 text-center">
             <a href="#">
               <img

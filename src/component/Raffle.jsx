@@ -14,14 +14,7 @@ const Raffle = () => {
               data-aos="fade-right"
               data-aos-duration="1500"
             >
-              <video
-                className="w-100 h-100"
-                loop
-                muted
-                playsInline
-                autoPlay
-                // controls
-              >
+              <video className="w-100 h-100" loop muted playsInline autoPlay>
                 <source src={video} type="video/mp4" />
               </video>
             </div>

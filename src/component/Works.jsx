@@ -13,7 +13,7 @@ const Works = () => {
         <div className="container pb-5 pb-xl-0 py-xl-5">
           <div className="row justify-content-center justify-content-xl-between align-items-center">
             <div
-              className="col-8 col-xl-5 z-index-1"
+              className="col-7 mt-5 mt-lg-0 col-xl-5 z-index-1"
               data-aos="fade-right"
               data-aos-duration="2000"
             >
@@ -61,7 +61,6 @@ const Works = () => {
         <div className="position-absolute side-text-2 d-none d-lg-block">
           <img
             className="w-100"
-            // src="./assets/images/png/How-it-works-text-img.png"
             src={HowItWorksTextImg}
             alt="How-it-works-text-img"
           />
