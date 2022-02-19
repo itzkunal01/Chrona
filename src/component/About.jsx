@@ -8,6 +8,8 @@ const About = () => {
       {/* <!-- ================================== ABOUT-US-SECTION ================================================ --> */}
       <section
         id="about"
+        data-aos={"fade-left"}
+        data-aos-duration="2000"
         className="about-us-section position-relative py-4 py-lg-0 mt-sm-5"
       >
         <div className="container py-3 py-lg-5">
