@@ -195,7 +195,9 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
+.overflow-hidden {
+  overflow: hidden;
+}
 .side-heading {
   font-size: var(--font-xxl);
   font-weight: 900;
@@ -552,18 +554,22 @@ section {
   .roadmap-star-img {
     width: 58px;
   }
+
   #previous-icon {
     display: none;
   }
+
   #next-icon {
     display: none;
   }
 }
+
 /* ===================================== UI-CSS-ONLY ====================================== */
 /* HEADER OVERLAY STYLES  */
 .navbar-wrapper {
   /* background-color: rgb(143, 202, 66); */
 }
+
 .navbar-wrapper .nav-list-items a {
   color: white;
   text-decoration: none;
@@ -585,8 +591,9 @@ section {
 .navbar-wrapper .nav-list-items a:hover::after {
   width: 100%;
 }
+
 /* HAMBURGER ICON STYLE  */
-@media (max-width: 991.98px) {
+@media (max-width: 1199.98px) {
   /* NAVBAR OVERLAY TOGGLE */
 
   .navbarwrapper {
@@ -647,7 +654,7 @@ section {
   }
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1199.98px) {
   .overlay-nav {
     transition: 0.7s ease !important;
     opacity: 0;
@@ -722,6 +729,7 @@ section {
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
+
 .overlay-active ul li:nth-child(5) {
   animation: animate_links 0.9s;
   animation-delay: 1s;
@@ -729,6 +737,7 @@ section {
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
+
 .overlay-active ul li:nth-child(6) {
   animation: animate_links 0.9s;
   animation-delay: 1.2s;
@@ -766,11 +775,13 @@ section {
   font-weight: 600;
   color: var(--black);
 }
+
 .nav-items-list .nav-links:hover {
   background: linear-gradient(123.61deg, #c5995d 7.36%, #bd8334 90.8%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 .nav-items-list .nav-links {
   position: relative;
 }
@@ -792,8 +803,10 @@ section {
   visibility: visible;
   transform: scaleX(1);
 }
+
 .px-32 {
   padding-left: 32px;
   padding-right: 32px;
 }
+
 /* ========================================================== MY-CSS =============================================================== */
