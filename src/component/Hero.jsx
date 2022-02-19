@@ -1,8 +1,7 @@
 import React from "react";
 import HeroImg from "../assets/images/svg/hero-watch.svg";
 import HeroImg2 from "../assets/images/svg/hero.svg";
-import GoldGreenImg from "../assets/images/png/gold-green.png";
-import GoldWatchImg from "../assets/images/png/gold-watch.png";
+import HeroImg3 from "../assets/images/png/hero-img-2.png";
 
 const Hero = () => {
   return (
@@ -19,26 +18,18 @@ const Hero = () => {
 
         <div className="row">
           <div
-            className="col d-none d-lg-block"
+            className="col d-none d-md-block"
             data-aos="fade-up"
             data-aos-duration="1500"
           >
             <img className="w-100 " src={HeroImg} alt="image" />
           </div>
           <div
-            className="col-8 mx-auto mt-5 d-lg-none d-block"
+            className="col-12 mx-auto mt-5 d-md-none d-block"
             data-aos="fade-up"
             data-aos-duration="1500"
           >
-            <div className="row">
-              <div className="col-6">
-                <img className="w-100" src={GoldGreenImg} alt="GoldGreenImg" />
-              </div>
-
-              <div className="col-6">
-                <img className="w-100" src={GoldWatchImg} alt="GoldWatchImg" />
-              </div>
-            </div>
+            <img className="w-100" src={HeroImg3} alt="" />
           </div>
         </div>
       </div>
