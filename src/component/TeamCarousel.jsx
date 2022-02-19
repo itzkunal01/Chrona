@@ -44,7 +44,7 @@ export const TeamCarousel = () => {
         breakpoint: 595,
         settings: {
           dots: true,
-          slidesToShow: 2,
+          slidesToShow: 1,
         },
       },
     ],
@@ -77,7 +77,7 @@ export const TeamCarousel = () => {
             <h1 className="text-center heading my-linear-gradient">Team</h1>
           </div>
         </div>
-        <Slider ref={slider} {...settings}>
+        <Slider className="py-4 py-sm-0" ref={slider} {...settings}>
           <div>
             <img className="w-100" src={CarouselFour} alt="image" />
             <h1 className="small-heading text-center mt-3 pt-1">Mesh</h1>

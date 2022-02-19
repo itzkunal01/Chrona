@@ -16,123 +16,6 @@
 body {
   font-family: "Raleway", sans-serif;
 }
-
-/*====================================== Media-queries-start ======================================== */
-
-@media (min-width: 1499.98px) and (max-width: 1699.98px) {
-  .side-text {
-    top: 17% !important;
-  }
-}
-
-@media (max-width: 1499.98px) {
-  :root {
-    --font-sm: 16px;
-    --font-md: 22px;
-    --font-lg: 24px;
-    --font-xl: 36px;
-    --font-xxl: 64px;
-    --font-xxxl: 120px;
-  }
-
-  #next-icon {
-    right: -50px !important;
-  }
-
-  #previous-icon {
-    left: -50px !important;
-  }
-}
-
-@media (max-width: 1399.98px) {
-  :root {
-    --font-sm: 16px;
-    --font-md: 16px;
-    --font-lg: 23px;
-    --font-xl: 34px;
-    --font-xxl: 58px;
-    --font-xxxl: 110px;
-  }
-
-  .px-32 {
-    padding-left: 19px;
-    padding-right: 19px;
-  }
-}
-
-@media (max-width: 1199.98px) {
-  :root {
-    --font-sm: 16px;
-    --font-md: 22px;
-    --font-lg: 23px;
-    --font-xl: 28px;
-    --font-xxl: 49px;
-    --font-xxxl: 98px;
-  }
-
-  #next-icon {
-    right: -31px !important;
-    width: 40px !important;
-    height: 40px !important;
-  }
-
-  #previous-icon {
-    left: -31px !important;
-    width: 40px !important;
-    height: 40px !important;
-  }
-}
-
-@media (max-width: 991.98px) {
-  :root {
-    --font-sm: 16px;
-    --font-md: 16px;
-    --font-lg: 23px;
-    --font-xl: 28px;
-    --font-xxl: 49px;
-    --font-xxxl: 88px;
-  }
-}
-
-@media (max-width: 767.98px) {
-  :root {
-    --font-sm: 16px;
-    --font-md: 20px;
-    --font-lg: 22px;
-    --font-xl: 28px;
-    --font-xxl: 40px;
-    --font-xxxl: 78px;
-  }
-}
-
-@media (max-width: 575.98px) {
-  :root {
-    --font-sm: 14px;
-    --font-md: 20px;
-    --font-lg: 14px;
-    --font-xl: 20px;
-    --font-xxl: 40px;
-    --font-xxxl: 78px;
-  }
-
-  .nav-logo {
-    width: 68%;
-  }
-
-  .ms-29 {
-    margin-left: 29px !important;
-  }
-
-  .w-55 {
-    width: 55%;
-  }
-
-  .slick-dots {
-    bottom: -34px;
-  }
-}
-
-/*====================================== Media-queries-end =========================================== */
 .font-sm {
   font-size: var(--font-sm) !important;
 }
@@ -274,10 +157,14 @@ body {
   height: 55px;
   border: 1px solid var(--yellow);
 }
+.slick-dots li {
+  width: 17px !important;
+  height: 17px !important;
+}
 
 .slick-dots li button:before {
   color: rgba(192, 139, 66, 1) !important;
-  font-size: 16px !important;
+  font-size: 12px !important;
 }
 
 .slick-dots li.slick-active button:before {
@@ -809,4 +696,120 @@ section {
   padding-right: 32px;
 }
 
-/* ========================================================== MY-CSS =============================================================== */
+/* ===================================== MY-CSS-ENDS ===================================================== */
+/*====================================== Media-queries-start ======================================== */
+
+@media (min-width: 1499.98px) and (max-width: 1699.98px) {
+  .side-text {
+    top: 17% !important;
+  }
+}
+
+@media (max-width: 1499.98px) {
+  :root {
+    --font-sm: 16px;
+    --font-md: 22px;
+    --font-lg: 24px;
+    --font-xl: 36px;
+    --font-xxl: 64px;
+    --font-xxxl: 120px;
+  }
+
+  #next-icon {
+    right: -50px !important;
+  }
+
+  #previous-icon {
+    left: -50px !important;
+  }
+}
+
+@media (max-width: 1399.98px) {
+  :root {
+    --font-sm: 16px;
+    --font-md: 16px;
+    --font-lg: 23px;
+    --font-xl: 34px;
+    --font-xxl: 58px;
+    --font-xxxl: 110px;
+  }
+
+  .px-32 {
+    padding-left: 19px;
+    padding-right: 19px;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  :root {
+    --font-sm: 16px;
+    --font-md: 22px;
+    --font-lg: 23px;
+    --font-xl: 28px;
+    --font-xxl: 49px;
+    --font-xxxl: 98px;
+  }
+
+  #next-icon {
+    right: -31px !important;
+    width: 40px !important;
+    height: 40px !important;
+  }
+
+  #previous-icon {
+    left: -31px !important;
+    width: 40px !important;
+    height: 40px !important;
+  }
+}
+
+@media (max-width: 991.98px) {
+  :root {
+    --font-sm: 16px;
+    --font-md: 16px;
+    --font-lg: 23px;
+    --font-xl: 28px;
+    --font-xxl: 49px;
+    --font-xxxl: 88px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  :root {
+    --font-sm: 16px;
+    --font-md: 20px;
+    --font-lg: 22px;
+    --font-xl: 28px;
+    --font-xxl: 40px;
+    --font-xxxl: 78px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  :root {
+    --font-sm: 14px;
+    --font-md: 20px;
+    --font-lg: 14px;
+    --font-xl: 20px;
+    --font-xxl: 40px;
+    --font-xxxl: 78px;
+  }
+
+  .nav-logo {
+    width: 68%;
+  }
+
+  .ms-29 {
+    margin-left: 29px !important;
+  }
+
+  .w-55 {
+    width: 55%;
+  }
+
+  .slick-dots {
+    bottom: -34px;
+  }
+}
+
+/*====================================== Media-queries-end =========================================== */
