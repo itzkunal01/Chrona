@@ -562,7 +562,7 @@ section {
 /* ===================================== UI-CSS-ONLY ====================================== */
 /* HEADER OVERLAY STYLES  */
 .navbar-wrapper {
-  background-color: rgb(143, 202, 66);
+  /* background-color: rgb(143, 202, 66); */
 }
 .navbar-wrapper .nav-list-items a {
   color: white;
@@ -598,7 +598,7 @@ section {
   }
 
   .first {
-    background-color: #fff;
+    background-color: var(--black);
     width: 100%;
     height: 3px;
     position: absolute;
@@ -607,7 +607,7 @@ section {
   }
 
   .second {
-    background-color: #fff;
+    background-color: var(--black);
     width: 70%;
     height: 3px;
     position: absolute;
@@ -617,7 +617,7 @@ section {
   }
 
   .third {
-    background-color: #fff;
+    background-color: var(--black);
     width: 100%;
     height: 3px;
     position: absolute;
@@ -654,7 +654,7 @@ section {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #2ba912e8;
+    background-color: var(--brown);
     width: 100%;
     height: 100%;
     pointer-events: none;
@@ -759,3 +759,41 @@ section {
 }
 
 /* HEADER OVERLAY STYLES  */
+
+/* ========================================================== MY-CSS =============================================================== */
+.nav-items-list .nav-links {
+  font-size: var(--font-sm);
+  font-weight: 600;
+  color: var(--black);
+}
+.nav-items-list .nav-links:hover {
+  background: linear-gradient(123.61deg, #c5995d 7.36%, #bd8334 90.8%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.nav-items-list .nav-links {
+  position: relative;
+}
+
+.nav-items-list .nav-links::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(123.61deg, #c5995d 7.36%, #bd8334 90.8%);
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-items-list .nav-links:hover::before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+.px-32 {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+/* ========================================================== MY-CSS =============================================================== */
