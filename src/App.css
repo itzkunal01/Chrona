@@ -12,7 +12,10 @@
   --white: #fafafa;
   --black: rgba(0, 0, 0, 1);
 }
-
+html,
+body {
+  overflow-x: hidden;
+}
 body {
   font-family: "Raleway", sans-serif;
 }
@@ -626,6 +629,14 @@ section {
 }
 
 .overlay-active ul li:nth-child(6) {
+  animation: animate_links 0.9s;
+  animation-delay: 1.2s;
+  transform: translateY(10px);
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.overlay-active ul li:nth-child(7) {
   animation: animate_links 0.9s;
   animation-delay: 1.2s;
   transform: translateY(10px);

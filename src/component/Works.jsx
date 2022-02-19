@@ -12,14 +12,22 @@ const Works = () => {
       >
         <div className="container pb-5 pb-xl-0 py-xl-5">
           <div className="row justify-content-center justify-content-xl-between align-items-center">
-            <div className="col-auto col-xl-5 z-index-1">
+            <div
+              className="col-auto col-xl-5 z-index-1"
+              data-aos="fade-right"
+              data-aos-duration="2000"
+            >
               <img
                 className="w-100 pe-xl-3 pe-xxl-5"
                 src={HowItWorksImg}
                 alt="how-it-works-gp-img"
               />
             </div>
-            <div className="col-lg-11 mx-auto mx-xl-0 col-xl-7 z-index-1 mt-5 mt-lg-0">
+            <div
+              className="col-lg-11 mx-auto mx-xl-0 col-xl-7 z-index-1 mt-5 mt-lg-0"
+              data-aos="fade-left"
+              data-aos-duration="2000"
+            >
               <div className="px-xl-4 px-xxl-5">
                 <h1 className="heading my-linear-gradient mb-3 text-center text-lg-start">
                   How it works

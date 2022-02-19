@@ -20,13 +20,21 @@ const FaqFooter = () => {
         <div className="container pb-4 py-sm-5 mt-lg-5">
           {/* <!-- row-1 --> */}
           <div className="row faq-border mt-4 mt-sm-5">
-            <div className="col-12 z-index-1">
+            <div
+              className="col-12 z-index-1"
+              data-aos="fade-right"
+              data-aos-duration="2000"
+            >
               <h1 className="heading mb-4 my-linear-gradient">FAQs</h1>
             </div>
           </div>
           {/* <!-- row-2 --> */}
           <div className="row faq-border  ">
-            <div className="col-lg-6 z-index-1">
+            <div
+              className="col-lg-6 z-index-1"
+              data-aos="fade-right"
+              data-aos-duration="2000"
+            >
               <ul className="ps-4">
                 <li className="small-heading my-3 my-xl-4">
                   Who can we talk to about collabs?
@@ -34,7 +42,11 @@ const FaqFooter = () => {
               </ul>
             </div>
             <div className="col-lg-6 z-index-1">
-              <p className="para text-black my-lg-4">
+              <p
+                className="para text-black my-lg-4"
+                data-aos="fade-left"
+                data-aos-duration="2000"
+              >
                 The CHRONO team always keeps an open mind for collaborations,
                 brainstorming and connecting. If you’d like to reach out, drop
                 us a line: hi@chrono.io
@@ -43,7 +55,11 @@ const FaqFooter = () => {
           </div>
           {/* <!-- row-3 --> */}
           <div className="row faq-border  ">
-            <div className="col-lg-6 z-index-1">
+            <div
+              className="col-lg-6 z-index-1"
+              data-aos="fade-right"
+              data-aos-duration="2000"
+            >
               <ul className="ps-4">
                 <li className="small-heading my-3 my-xl-4">
                   What is a fair drop raffle?
@@ -51,7 +67,11 @@ const FaqFooter = () => {
               </ul>
             </div>
             <div className="col-lg-6 z-index-1">
-              <p className="para text-black my-lg-4">
+              <p
+                className="para text-black my-lg-4"
+                data-aos="fade-left"
+                data-aos-duration="2000"
+              >
                 At CHRONO, we want to give each member of our community an equal
                 chance at becoming a part of the CHRONO family by using a fair
                 raffle for all NFTs, we’re able to keep out the bots and gas
@@ -61,7 +81,11 @@ const FaqFooter = () => {
           </div>
           {/* <!-- row-4 --> */}
           <div className="row faq-border  ">
-            <div className="col-lg-6 z-index-1">
+            <div
+              className="col-lg-6 z-index-1"
+              data-aos="fade-right"
+              data-aos-duration="2000"
+            >
               <ul className="ps-4">
                 <li className="small-heading my-3 my-xl-4">
                   Can we sell our NFTs instead of burning them?
@@ -69,7 +93,11 @@ const FaqFooter = () => {
               </ul>
             </div>
             <div className="col-lg-6 z-index-1">
-              <p className="para text-black my-lg-4">
+              <p
+                className="para text-black my-lg-4"
+                data-aos="fade-left"
+                data-aos-duration="2000"
+              >
                 Yes, sales can be made on OpenSea. We do, however, encourage
                 HODLing your CHRONO NFT for as long as possible to maximize the
                 benefit of the deflationary mechanisms we have built in.
@@ -78,7 +106,11 @@ const FaqFooter = () => {
           </div>
           {/* <!-- row-5 --> */}
           <div className="row faq-border  ">
-            <div className="col-lg-6 z-index-1">
+            <div
+              className="col-lg-6 z-index-1"
+              data-aos="fade-right"
+              data-aos-duration="2000"
+            >
               <ul className="ps-4">
                 <li className="small-heading my-3 my-xl-4">
                   Do we really get high end watches?
@@ -86,7 +118,11 @@ const FaqFooter = () => {
               </ul>
             </div>
             <div className="col-lg-6 z-index-1">
-              <p className="para text-black my-lg-4">
+              <p
+                className="para text-black my-lg-4"
+                data-aos="fade-left"
+                data-aos-duration="2000"
+              >
                 Short answer: yes. We are, first and foremost, a premium watch
                 curator and reseller based out of Dubai. All watches won are
                 certified and verified factory original pieces fit for resale
@@ -96,7 +132,11 @@ const FaqFooter = () => {
           </div>
           {/* <!-- row-6 --> */}
           <div className="row faq-border  ">
-            <div className="col-lg-6 z-index-1">
+            <div
+              className="col-lg-6 z-index-1"
+              data-aos="fade-right"
+              data-aos-duration="2000"
+            >
               <ul className="ps-4">
                 <li className="small-heading my-3 my-xl-4">
                   What about the ultra-rare watches, are they new?
@@ -104,7 +144,11 @@ const FaqFooter = () => {
               </ul>
             </div>
             <div className="col-lg-6 z-index-1">
-              <p className="para text-black my-lg-4">
+              <p
+                className="para text-black my-lg-4"
+                data-aos="fade-left"
+                data-aos-duration="2000"
+              >
                 As watch collectors, we understand some pieces have been
                 discontinued. 99% of our collection is brand new from the
                 factory and these extra rare pieces will all be in showroom
@@ -115,7 +159,11 @@ const FaqFooter = () => {
           </div>
           {/* <!-- row-7 --> */}
           <div className="row faq-border  ">
-            <div className="col-lg-6 z-index-1">
+            <div
+              className="col-lg-6 z-index-1"
+              data-aos="fade-right"
+              data-aos-duration="2000"
+            >
               <ul className="ps-4">
                 <li className="small-heading my-3 my-xl-4">
                   What is the mint price?
@@ -123,14 +171,22 @@ const FaqFooter = () => {
               </ul>
             </div>
             <div className="col-lg-6 z-index-1">
-              <p className="para text-black my-lg-4">
+              <p
+                className="para text-black my-lg-4"
+                data-aos="fade-left"
+                data-aos-duration="2000"
+              >
                 The mint price will be 0.7 eth.
               </p>
             </div>
           </div>
           {/* <!-- row-8 --> */}
           <div className="row faq-border  ">
-            <div className="col-lg-6 z-index-1">
+            <div
+              className="col-lg-6 z-index-1"
+              data-aos="fade-right"
+              data-aos-duration="2000"
+            >
               <ul className="ps-4">
                 <li className="small-heading my-3 my-xl-4">
                   How will we get our watches?
@@ -138,7 +194,11 @@ const FaqFooter = () => {
               </ul>
             </div>
             <div className="col-lg-6 z-index-1">
-              <p className="para text-black my-lg-4">
+              <p
+                className="para text-black my-lg-4"
+                data-aos="fade-left"
+                data-aos-duration="2000"
+              >
                 The top 100 rarest watches will be hand-delivered by a member of
                 our team personally, anywhere in the world. The rest of the
                 collection will be handled by our trusted delivery partners.
@@ -147,7 +207,11 @@ const FaqFooter = () => {
           </div>
           {/* <!-- row-9 --> */}
           <div className="row faq-border  ">
-            <div className="col-lg-6 z-index-1">
+            <div
+              className="col-lg-6 z-index-1"
+              data-aos="fade-right"
+              data-aos-duration="2000"
+            >
               <ul className="ps-4">
                 <li className="small-heading my-3 my-xl-4">
                   After the burn, when do we get our watches?
@@ -155,7 +219,11 @@ const FaqFooter = () => {
               </ul>
             </div>
             <div className="col-lg-6 z-index-1">
-              <p className="para text-black my-lg-4">
+              <p
+                className="para text-black my-lg-4"
+                data-aos="fade-left"
+                data-aos-duration="2000"
+              >
                 90% of our collection are in stock and will be sent out as soon
                 as your NFT is burned and your details are passed on to your
                 personal CHRONO agent. The remainder of the collection are the
@@ -169,7 +237,11 @@ const FaqFooter = () => {
           </div>
           {/* <!-- row-10 --> */}
           <div className="row faq-border  ">
-            <div className="col-lg-6 z-index-1">
+            <div
+              className="col-lg-6 z-index-1"
+              data-aos="fade-right"
+              data-aos-duration="2000"
+            >
               <ul className="ps-4">
                 <li className="small-heading my-3 my-xl-4">
                   What if my watch can’t be sourced?
@@ -177,7 +249,11 @@ const FaqFooter = () => {
               </ul>
             </div>
             <div className="col-lg-6 z-index-1">
-              <p className="para text-black my-lg-4">
+              <p
+                className="para text-black my-lg-4"
+                data-aos="fade-left"
+                data-aos-duration="2000"
+              >
                 On the off chance that we aren’t able to source the exact watch
                 revealed upon your burn, we will provide you with options -
                 either we can source a watch in the same price bracket or we can
@@ -188,7 +264,11 @@ const FaqFooter = () => {
           </div>
           {/* <!-- row-11 --> */}
           <div className="row faq-border  ">
-            <div className="col-lg-6 z-index-1">
+            <div
+              className="col-lg-6 z-index-1"
+              data-aos="fade-right"
+              data-aos-duration="2000"
+            >
               <ul className="ps-4">
                 <li className="small-heading my-3 my-xl-4">
                   What if all the rare watches get claimed before we burn?
@@ -196,7 +276,11 @@ const FaqFooter = () => {
               </ul>
             </div>
             <div className="col-lg-6 z-index-1">
-              <p className="para text-black my-lg-4">
+              <p
+                className="para text-black my-lg-4"
+                data-aos="fade-left"
+                data-aos-duration="2000"
+              >
                 We have anticipated the possibility of this, which is why we
                 have allocated a portion of the royalties to buyintg more rare
                 watches over time. This means that the longer you hold your

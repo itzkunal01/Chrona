@@ -14,7 +14,7 @@ const Roadmap = () => {
       <section className="roadmap my-5 py-sm-5">
         <div className="container">
           <div className="row">
-            <div className="col-12">
+            <div className="col-12" data-aos="fade-up" data-aos-duration="2000">
               <h1 className="text-center heading my-linear-gradient">
                 Roadmap
               </h1>
@@ -30,7 +30,11 @@ const Roadmap = () => {
               </div>
               <div className="loadmap-line ms-29 mx-sm-auto"></div>
             </div>
-            <div className="col-10 col-md-8 col-lg-5 ps-5 ps-sm-2">
+            <div
+              className="col-10 col-md-8 col-lg-5 ps-5 ps-sm-2"
+              data-aos="fade-left"
+              data-aos-duration="2000"
+            >
               <div>
                 <h1 className="sub-heading">Phase 1.</h1>
                 <p className="small-heading">
@@ -43,7 +47,11 @@ const Roadmap = () => {
 
           {/* <!-- second-row --> */}
           <div className="row justify-content-lg-center">
-            <div className="col-10 col-md-8 col-lg-5 order-3 order-lg-0 ps-5 ps-sm-2">
+            <div
+              className="col-10 col-md-8 col-lg-5 order-3 order-lg-0 ps-5 ps-sm-2"
+              data-aos="fade-right"
+              data-aos-duration="2000"
+            >
               <div className="text-lg-end">
                 <h1 className="sub-heading">Phase 2.</h1>
                 <p className="small-heading">
@@ -70,7 +78,11 @@ const Roadmap = () => {
               </div>
               <div className="loadmap-line ms-29 mx-sm-auto"></div>
             </div>
-            <div className="col-10 col-md-8 col-lg-5 ps-5 ps-sm-2 py-4 py-sm-0">
+            <div
+              className="col-10 col-md-8 col-lg-5 ps-5 ps-sm-2 py-4 py-sm-0"
+              data-aos="fade-left"
+              data-aos-duration="2000"
+            >
               <div>
                 <h1 className="sub-heading">Phase 3.</h1>
                 <p className="small-heading  mb-5">Whitelist sale opens</p>
@@ -80,7 +92,11 @@ const Roadmap = () => {
 
           {/* <!--fourth-row --> */}
           <div className="row justify-content-lg-center">
-            <div className="col-10 col-md-8 col-lg-5  order-3 order-lg-0 ps-5 ps-sm-2 py-4 py-sm-0">
+            <div
+              className="col-10 col-md-8 col-lg-5  order-3 order-lg-0 ps-5 ps-sm-2 py-4 py-sm-0"
+              data-aos="fade-right"
+              data-aos-duration="2000"
+            >
               <div className="text-lg-end">
                 <h1 className="sub-heading">Phase 4.</h1>
                 <p className="small-heading mb-5">Public sale opens</p>
@@ -104,7 +120,11 @@ const Roadmap = () => {
               </div>
               <div className="loadmap-line ms-29 mx-sm-auto"></div>
             </div>
-            <div className="col-10 col-md-8 col-lg-5 ps-5 ps-sm-2 py-4 py-sm-0">
+            <div
+              className="col-10 col-md-8 col-lg-5 ps-5 ps-sm-2 py-4 py-sm-0"
+              data-aos="fade-left"
+              data-aos-duration="2000"
+            >
               <div>
                 <h1 className="sub-heading">Phase 5.</h1>
                 <p className="small-heading mb-5">Public Burn opens</p>
@@ -114,7 +134,11 @@ const Roadmap = () => {
 
           {/* <!-- sixth-row --> */}
           <div className="row justify-content-lg-center">
-            <div className="col-10 col-md-8 col-lg-5  order-3 order-lg-0 ps-5 ps-sm-2 pt-3">
+            <div
+              className="col-10 col-md-8 col-lg-5  order-3 order-lg-0 ps-5 ps-sm-2 pt-3"
+              data-aos="fade-right"
+              data-aos-duration="2000"
+            >
               <div className="text-lg-end">
                 <h1 className="sub-heading">Phase 6.</h1>
                 <p className="small-heading">
@@ -143,7 +167,11 @@ const Roadmap = () => {
                 <img className="pt-1 w-55" src={RoadmapSeven} alt="image" />
               </div>
             </div>
-            <div className="col-10 col-md-8 col-lg-5 ps-5 ps-sm-2 pt-3">
+            <div
+              className="col-10 col-md-8 col-lg-5 ps-5 ps-sm-2 pt-3"
+              data-aos="fade-left"
+              data-aos-duration="2000"
+            >
               <div>
                 <h1 className="sub-heading">Phase 7.</h1>
                 <p className="small-heading">Season 2 Launch reveal</p>

@@ -16,9 +16,7 @@ export const TeamCarousel = () => {
     dots: false,
     slidesToShow: 4,
     slidesToScroll: 1,
-    autoplay: true,
     arrows: false,
-    autoplaySpeed: 800,
     speed: 500,
     responsive: [
       {
@@ -73,7 +71,7 @@ export const TeamCarousel = () => {
           </div>
         </div>
         <div className="row pb-sm-5 mb-3">
-          <div className="col-12">
+          <div className="col-12" data-aos="fade-up" data-aos-duration="2000">
             <h1 className="text-center heading my-linear-gradient">Team</h1>
           </div>
         </div>

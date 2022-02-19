@@ -1,6 +1,6 @@
 import React from "react";
-import KikoImg from ".././assets/images/png/Kiko-img.png";
 import EnterRaffleImg from ".././assets/images/png/Enter-raffle-img.png";
+import video from ".././assets/video/raffle-video.mp4";
 
 const Raffle = () => {
   return (
@@ -9,15 +9,28 @@ const Raffle = () => {
       <section id="enter" className="bg-color-gray position-relative py-lg-5">
         <div className="container py-5">
           <div className="row justify-content-center justify-content-xl-between align-items-center">
-            <div className="col-auto col-xl-auto z-index-1 ms-xl-5">
-              <img
-                className="w-100 px-3 px-sm-0 pe-xl-3 px-xxl-5"
-                src={KikoImg}
-                alt="Kiko-img"
-              />
+            <div
+              className="col-auto col-lg-4 col-xl-5 z-index-1"
+              data-aos="fade-right"
+              data-aos-duration="1500"
+            >
+              <video
+                className="w-100 h-100"
+                loop
+                muted
+                playsInline
+                autoPlay
+                // controls
+              >
+                <source src={video} type="video/mp4" />
+              </video>
             </div>
-            <div className="col-lg-11 mx-auto mx-xl-0 col-xl-7 z-index-1 pe-xxl-5 mt-5 mt-xl-0">
-              <div className="px-xl-4">
+            <div
+              className="col-lg-8 mx-auto mx-xl-0 col-xl-7 z-index-1 pe-xxl-5 mt-5 mt-xl-0"
+              data-aos="fade-left"
+              data-aos-duration="1500"
+            >
+              <div className="px-lg-4 px-xxl-5">
                 <h1 className="heading my-linear-gradient mb-3 text-center text-md-start">
                   Enter Raffle
                 </h1>

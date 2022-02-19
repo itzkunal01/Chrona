@@ -8,13 +8,15 @@ const About = () => {
       {/* <!-- ================================== ABOUT-US-SECTION ================================================ --> */}
       <section
         id="about"
-        data-aos={"fade-left"}
-        data-aos-duration="2000"
         className="about-us-section position-relative py-4 py-lg-0 mt-sm-5"
       >
         <div className="container py-3 py-lg-5">
           <div className="row justify-content-center justify-content-lg-between align-items-center">
-            <div className="col-auto col-lg-7 z-index-1 order-2 order-lg-0 mt-5 mt-lg-0">
+            <div
+              className="col-auto col-lg-7 z-index-1 order-2 order-lg-0 mt-5 mt-lg-0"
+              data-aos="fade-right"
+              data-aos-duration="2000"
+            >
               <div className="ps-xxl-4 pe-xxl-5">
                 <h1 className="heading my-linear-gradient mb-3 text-center text-lg-start">
                   About us

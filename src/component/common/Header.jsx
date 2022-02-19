@@ -109,7 +109,10 @@ const Header = () => {
                       className="py-2 py-sm-4 d-inline-block cursor-pointer"
                       onClick={() => setShowOverlay(false)}
                     >
-                      <a className="nav-link fs-2 text-white text-decoration-none">
+                      <a
+                        href="#home"
+                        className="nav-link fs-2 text-black text-decoration-none"
+                      >
                         Home
                       </a>
                     </span>
@@ -120,10 +123,10 @@ const Header = () => {
                       onClick={() => setShowOverlay(false)}
                     >
                       <a
-                        href="#story"
-                        className="nav-link fs-2 text-white text-decoration-none"
+                        href="#about"
+                        className="nav-link fs-2 text-black text-decoration-none"
                       >
-                        Story
+                        About us
                       </a>
                     </span>
                   </li>
@@ -133,10 +136,10 @@ const Header = () => {
                       onClick={() => setShowOverlay(false)}
                     >
                       <a
-                        href="#upgrader"
-                        className="nav-link fs-2 text-white text-decoration-none"
+                        href="#how-to"
+                        className="nav-link fs-2 text-black text-decoration-none"
                       >
-                        Upgrader
+                        How to works
                       </a>
                     </span>
                   </li>
@@ -146,10 +149,10 @@ const Header = () => {
                       onClick={() => setShowOverlay(false)}
                     >
                       <a
-                        href="#roadmap"
-                        className="nav-link fs-2 text-white text-decoration-none"
+                        href="#enter"
+                        className="nav-link fs-2 text-black text-decoration-none"
                       >
-                        Roadmap
+                        Enter raffle
                       </a>
                     </span>
                   </li>
@@ -159,10 +162,10 @@ const Header = () => {
                       onClick={() => setShowOverlay(false)}
                     >
                       <a
-                        href="#faq"
-                        className="nav-link fs-2 text-white text-decoration-none"
+                        href="#watch-list"
+                        className="nav-link fs-2 text-black text-decoration-none"
                       >
-                        FAQs
+                        Watch list
                       </a>
                     </span>
                   </li>
@@ -173,9 +176,22 @@ const Header = () => {
                     >
                       <a
                         href="#team"
-                        className="nav-link fs-2 text-white text-decoration-none"
+                        className="nav-link fs-2 text-black text-decoration-none"
                       >
                         Team
+                      </a>
+                    </span>
+                  </li>
+                  <li className="nav-item btn-img mt-3 mt-lg-1  transition-0_3sEase overflow-hidden">
+                    <span
+                      className="py-2 py-sm-4 d-inline-block cursor-pointer"
+                      onClick={() => setShowOverlay(false)}
+                    >
+                      <a
+                        href="#faq"
+                        className="nav-link fs-2 text-black text-decoration-none"
+                      >
+                        FAQs
                       </a>
                     </span>
                   </li>
@@ -187,8 +203,7 @@ const Header = () => {
           <div className="container">
             <nav className="navbar h-86 navbar-expand-lg navbar-light p-3 w-100">
               <div className="d-flex justify-content-between w-100 align-items-center">
-                <h1>Logo</h1>
-
+                <img className="nav-logo" src={ChronoLogo} alt="logo" />
                 <div
                   className={`${
                     showOverlay ? "animate" : ""
