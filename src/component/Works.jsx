@@ -13,7 +13,7 @@ const Works = () => {
         <div className="container pb-5 pb-xl-0 py-xl-5">
           <div className="row justify-content-center justify-content-xl-between align-items-center">
             <div
-              className="col-auto col-xl-5 z-index-1"
+              className="col-8 col-xl-5 z-index-1"
               data-aos="fade-right"
               data-aos-duration="2000"
             >

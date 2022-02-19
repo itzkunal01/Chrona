@@ -17,7 +17,7 @@ body {
   overflow-x: hidden;
 }
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway", sans-serif !important;
 }
 .font-sm {
   font-size: var(--font-sm) !important;

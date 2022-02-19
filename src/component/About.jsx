@@ -44,7 +44,7 @@ const About = () => {
                 </p>
               </div>
             </div>
-            <div className="col-8 col-lg-5 col-xl-auto z-index-1 invisible about-us-img my-3 mt-lg-0">
+            <div className="col-7 col-lg-5 col-xl-auto z-index-1 invisible about-us-img my-3 mt-lg-0">
               <img
                 className="w-100 px-3 px-sm-0"
                 src={ElegantAboutImg}
