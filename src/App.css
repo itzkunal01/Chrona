@@ -12,10 +12,7 @@
   --white: #fafafa;
   --black: rgba(0, 0, 0, 1);
 }
-html,
-body {
-  overflow-x: hidden;
-}
+
 body {
   font-family: "Raleway", sans-serif;
 }
