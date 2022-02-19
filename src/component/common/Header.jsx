@@ -7,12 +7,20 @@ const Header = () => {
   const { showOverlay, setShowOverlay } = useScreenFixedProvider();
 
   const BeforeDesktop = ({ children }) => {
-    const isBeforeDesktop = useMediaQuery({ maxWidth: 991.98 });
+    const isBeforeDesktop = useMediaQuery({ maxWidth: 1199.9 });
     return isBeforeDesktop ? children : null;
   };
   const Desktop = ({ children }) => {
-    const isDesktop = useMediaQuery({ minWidth: 992 });
+    const isDesktop = useMediaQuery({ minWidth: 1200 });
     return isDesktop ? children : null;
+  };
+  const siderBar = () => {
+    setShowOverlay(!showOverlay);
+    if (showOverlay === false) {
+      document.body.classList.add("overflow-hidden");
+    } else {
+      document.body.classList.remove("overflow-hidden");
+    }
   };
 
   return (
@@ -184,8 +192,8 @@ const Header = () => {
                 <div
                   className={`${
                     showOverlay ? "animate" : ""
-                  } position-relative navbarwrapper  hamburger-icon d-flex flex-column d-lg-none`}
-                  onClick={() => setShowOverlay(!showOverlay)}
+                  } position-relative navbarwrapper  hamburger-icon d-flex flex-column d-xl-none`}
+                  onClick={() => siderBar()}
                 >
                   <span className="first d-inline-block"></span>
                   <span className="second d-inline-block"></span>
