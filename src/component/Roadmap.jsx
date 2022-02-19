@@ -43,7 +43,7 @@ const Roadmap = () => {
 
           {/* <!-- second-row --> */}
           <div className="row justify-content-lg-center">
-            <div className="col-10 col-md-8 col-lg-5  order-3 order-lg-0 ps-5 ps-sm-2">
+            <div className="col-10 col-md-8 col-lg-5 order-3 order-lg-0 ps-5 ps-sm-2">
               <div className="text-lg-end">
                 <h1 className="sub-heading">Phase 2.</h1>
                 <p className="small-heading">
@@ -56,7 +56,7 @@ const Roadmap = () => {
               <div className="roadmap-circle text-center mx-auto">
                 <img className="pt-1 ps-1 w-66" src={RoadmapTwo} alt="image" />
               </div>
-              <div className="loadmap-line mx-auto ms-29 mx-sm-auto"></div>
+              <div className="loadmap-line ms-29 mx-sm-auto"></div>
             </div>
             <div className="col-5 d-none d-lg-block"></div>
           </div>
@@ -90,7 +90,7 @@ const Roadmap = () => {
               <div className="roadmap-circle text-center mx-auto">
                 <img className="pt-1 ps-1 w-55" src={RoadmapFour} alt="image" />
               </div>
-              <div className="loadmap-line mx-auto ms-29 mx-sm-auto"></div>
+              <div className="loadmap-line ms-29 mx-sm-auto"></div>
             </div>
             <div className="col-5 d-none d-lg-block"></div>
           </div>
@@ -130,7 +130,7 @@ const Roadmap = () => {
               <div className="roadmap-circle text-center mx-auto">
                 <img className="pt-1 ps-1 w-66" src={RoadmapSix} alt="image" />
               </div>
-              <div className="loadmap-line mx-auto ms-29 mx-sm-auto"></div>
+              <div className="loadmap-line ms-29 mx-sm-auto"></div>
             </div>
             <div className="col-5 d-none d-lg-block"></div>
           </div>
